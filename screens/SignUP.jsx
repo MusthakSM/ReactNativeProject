@@ -106,7 +106,7 @@ const SignUP = ({ navigation }) => {
           });
 
         Alert.alert("SignUp success!..");
-        navigation.navigate('Login');
+        navigation.navigate('Home');
       } catch (error) {
         if (error.code === 'auth/email-already-in-use') {
           Alert.alert('Error: Email already in use.');

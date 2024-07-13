@@ -1,79 +1,73 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Simple React Native Application for CodeScale Interview Assesment (GoT Gallary..)
 
-# Getting Started
+## Video Overview
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+You can watch the application overview [here](https://drive.google.com/file/d/1yDWR9JFwlTRc0FD2kQpViVbaVYTCD46K/view?usp=sharing).
 
-## Step 1: Start the Metro Server
+This is a React Native application that provides user authentication and character listing features, integrating Firebase for authentication and the Thrones API for data.
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+## Features
 
-To start Metro, run the following command from the _root_ of your React Native project:
+1. **User Authentication**: 
+   - Users can sign up and sign in using Firebase Authentication.
+   - Once logged in, user sessions persist across the application, eliminating the need for repeated logins.
 
-```bash
-# using npm
-npm start
+2. **Character Listing**: 
+   - The app fetches and displays a list of characters from the [Thrones API](https://thronesapi.com/).
+   - Users can navigate through character details with a clean, intuitive design.
 
-# OR using Yarn
-yarn start
-```
+3. **Profile Management**: 
+   - Users can view their profile information on a dedicated screen (Profile Screen).
+   - Users can log out, which redirects them to the "Sign In" screen.
 
-## Step 2: Start your Application
+4. **State Management**: 
+   - Redux is used for state management, ensuring a seamless user experience and maintaining global application state.
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+## Getting Started
 
-### For Android
+### Prerequisites
 
-```bash
-# using npm
-npm run android
+- Node.js installed on your machine.
+- React Native development environment set up (follow the [official guide](https://reactnative.dev/docs/environment-setup)).
 
-# OR using Yarn
-yarn android
-```
+### Installation
 
-### For iOS
+1. Clone the repository:
 
-```bash
-# using npm
-npm run ios
+   ```bash
+   git clone https://github.com/MusthakSM/ReactNativeProject.git
+   cd ReactNativeProject
+   ```
 
-# OR using Yarn
-yarn ios
-```
+2. Install dependencies:
+   
+   ```bash
+   npm install
+   ```
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+3. Set up Firebase
+   - Create a Firebase project and enable Authentication and Firestore Database.
+   - Add your Firebase configuration to your app. ('./Firebase/Firebase')
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+## Running the App
 
-## Step 3: Modifying your App
+   ```bash
+   npm start
+   ```
 
-Now that you have successfully run the app, let's modify it.
+## Usage
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+- **Sign Up / Sign In**: Users can create an account or log in using their credentials.
+- **Character Screen**: Displays a list of characters fetched from the Thrones API.
+- **Profile Screen**: Shows user information and allows users to log out.
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+## Technologies Used
 
-## Congratulations! :tada:
+- **React Native**: For building the mobile application.
+- **Firebase**: For authentication and database management.
+- **Redux**: For state management.
+- **Thrones API**: For fetching character data.
 
-You've successfully run and modified your React Native App. :partying_face:
+## Video Overview
 
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+You can watch the application overview [here](https://drive.google.com/file/d/1yDWR9JFwlTRc0FD2kQpViVbaVYTCD46K/view?usp=sharing).
