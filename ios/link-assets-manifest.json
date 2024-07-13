@@ -1,0 +1,49 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Acme-Regular.ttf",
+      "sha1": "8697187664d6dd8d3d058a590da32c7e19158413"
+    },
+    {
+      "path": "assets/fonts/Game of Thrones.ttf",
+      "sha1": "e7d71eb340e953c52f763af716b002cf244ebc1e"
+    },
+    {
+      "path": "assets/fonts/Macondo-Regular.ttf",
+      "sha1": "2a5e9c75e3c9c13e610398d8a2728d8176dd62c8"
+    },
+    {
+      "path": "assets/fonts/NotoSansMono-Bold.ttf",
+      "sha1": "c94665baffd4840940f2a433f0e4f0dbf5a2f019"
+    },
+    {
+      "path": "assets/fonts/Outfit-Bold.ttf",
+      "sha1": "dd5f4206d22d8b093a53a2f6423ed532fd656aeb"
+    },
+    {
+      "path": "assets/fonts/Outfit-Regular.ttf",
+      "sha1": "7724dc42adf3e8caa9a1f7f64bc02016f201f550"
+    },
+    {
+      "path": "assets/fonts/Pridi-Regular.ttf",
+      "sha1": "d289ab215baa2a0b71a2fcecd83b295a7ea2d581"
+    },
+    {
+      "path": "assets/fonts/Ramabhadra-Regular.ttf",
+      "sha1": "d412f60c047f5446aa7db63f4c91a4185a077880"
+    },
+    {
+      "path": "assets/fonts/ReemKufi-Bold.ttf",
+      "sha1": "3e0c8ebe6d2e84cf460fbb5e474ad60e53f659ee"
+    },
+    {
+      "path": "assets/fonts/Roboto-Bold.ttf",
+      "sha1": "62442a18a9fe9457c1afeabf683d263a691b7798"
+    },
+    {
+      "path": "assets/fonts/Roboto-Regular.ttf",
+      "sha1": "56c5c0d38bde4c1f1549dda43db37b09c608aad3"
+    }
+  ]
+}
